@@ -52,6 +52,7 @@ def make_inference(input_folder, output_folder):
 
 
 #usage:: python3 m3infer_demo.py /data2/julina/scripts/tweets/2020/03/user_csv/jsonl/ /data2/julina/scripts/tweets/2020/03/user_csv/demo 
+#python3 m3infer_demo.py /data2/julina/scripts/tweets/2019/10/pred/ /data2/julina/scripts/tweets/2019/10/pred/dm/
 if __name__ == "__main__":
     try:
         input_folder = sys.argv[1]

@@ -32,6 +32,7 @@ def do_singlefile(filename):
 
 ##usage
 ## python3 find_race.py /data2/julina/scripts/tweets/2020/ 
+## python3 find_race.py  /data2/julina/scripts/tweets/cleaned_data_by_year/2020.csv 
 if __name__ == "__main__":
     try:
         input_folder = sys.argv[1]

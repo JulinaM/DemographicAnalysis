@@ -62,6 +62,7 @@ def do(input_folder):
 
 ##usage
 ## python3 vader_demo.py /data2/julina/scripts/tweets/2020/ 
+## python3 vader_demo.py /data2/julina/scripts/tweets/cleaned_data_by_year/2021.csv 
 if __name__ == "__main__":
     try:
         input_folder = sys.argv[1]
